@@ -42,10 +42,10 @@ void display() const;
 - **getter** for all membervariables
 
 ### operators
-- **operator***: product matrices and return it by reference.
-- **operator+**: return sum of matrices and return it by reference.
+- **operator***: product matrices and return it.
+- **operator+**: return sum of matrices and return it.
 - **operator+=**: return sum of matrices and save it and return by reference.
-- **operator-**: return subtract of matrices and return it by reference.
+- **operator-**: return subtract of matrices and return it.
 - **operator|**: solve `Ax = b` with `A | b` with less than 0.001 precision and return `x` in matrix format.
 - **operator++**: add 1 to each data in matrix.(implement post-increment and pre-increment).
 - **operator--**: subtract 1 from each data in matrix.(implement post-decrement and pre-decrement).
