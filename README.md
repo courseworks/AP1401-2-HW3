@@ -39,6 +39,8 @@ const Matrix& append(const Matrix& m, axis=0);
 ```cpp
 void display() const;
 ```
+- **getter** for all membervariables
+
 ### operators
 - **operator***: product matrices and return it by reference.
 - **operator+**: return sum of matrices and return it by reference.
