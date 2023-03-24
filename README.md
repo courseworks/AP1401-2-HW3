@@ -23,7 +23,7 @@ Matrix(int row, int column);
 ```
 - **constructor with initializer_list**
 ```cpp
-Matrix(std::initializer_list<std::initializer_list<int>> a)
+Matrix(std::initializer_list<std::initializer_list<double>> a)
 ```
 - **copy constructor**
 ``` cpp
