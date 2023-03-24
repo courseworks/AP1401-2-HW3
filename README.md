@@ -54,8 +54,9 @@ void display() const;
 - **operator=**: copy all data of right matrix on left matrix.
 
 # Finally
-- don't change `main.cpp`.
-- write Makefile to run your code.
+- Don't change `main.cpp`.
+- Write Makefile to run your code.
+- Remember to pay attention to size and capacity in all functions.
 - keep all your implementations in `matrix.cpp` and `matrix.h.` do not alter other files at all. In case you want to test your code you may only use the `debug` section of the `main.cpp`
 ```cpp
 if (true) // make false to run unit tests  
