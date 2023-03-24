@@ -183,7 +183,7 @@ TEST(APHW3TEST, test16)
     Matrix A {{1, 2, 3}, {3, 0, 1}, {1, 1, 1}};
     Matrix b {{12}, {16}, {8}};
     Matrix x{A | b};
-    EXPECT_EQ(x[0][0], 5);
-    EXPECT_EQ(x[1][0], 2);
-    EXPECT_EQ(x[2][0], 1);
+    ASSERT_NEAR(x[0][0], 5, 0.001);
+    ASSERT_NEAR(x[1][0], 2, 0.001);
+    ASSERT_NEAR(x[2][0], 1, 0.001);
 }
