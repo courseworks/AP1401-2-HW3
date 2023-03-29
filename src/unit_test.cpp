@@ -66,7 +66,7 @@ TEST(APHW3TEST, test6)
     EXPECT_EQ(prod.getRowCapacity(), 4);
     EXPECT_EQ(prod.getColCapacity(), 4);
     EXPECT_EQ(prod.getMatrix()[1][0], 5);
-    EXPECT_EQ(prod.getMatrix()[2, 2], 11);
+    EXPECT_EQ(prod.getMatrix()[2][2], 11);
 }
 
 TEST(APHW3TEST, test7)
@@ -119,8 +119,8 @@ TEST(APHW3TEST, test10)
     EXPECT_EQ(s.getMatrix()[1][1], 17);
     EXPECT_EQ(s.getMatrix()[2][2], 1);
 
-    EXPECT_EQ(s.getMatrix()[1][1], 18);
-    EXPECT_EQ(s.getMatrix()[2][2], 2);
+    EXPECT_EQ(m.getMatrix()[1][1], 18);
+    EXPECT_EQ(m.getMatrix()[2][2], 2);
 }
 
 TEST(APHW3TEST, test11)
