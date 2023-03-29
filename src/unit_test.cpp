@@ -49,7 +49,7 @@ TEST(APHW3TEST, test5)
     EXPECT_EQ(m.getColSize(), 10);
     EXPECT_EQ(m.getRowCapacity(), 4);
     EXPECT_EQ(m.getColCapacity(), 16);
-    m.append(m);
+    m.append(m, 1);
     EXPECT_EQ(m.getRowSize(), 6);
     EXPECT_EQ(m.getColSize(), 10);
     EXPECT_EQ(m.getRowCapacity(), 8);
