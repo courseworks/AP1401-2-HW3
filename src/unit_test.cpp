@@ -44,12 +44,12 @@ TEST(APHW3TEST, test5)
 {
     Matrix m {{1, 2, 3, 4, 5}, {3, 4, 5, 4, 5}, {4, 5, 5, 4, 5}};
     Matrix m2 {{1, 1, 1, 1, 1}, {2, 2, 2, 2, 2}, {3, 3, 3, 3, 3}};
-    m.append(m2, 1);
+    m.append(m2);
     EXPECT_EQ(m.getRowSize(), 3);
     EXPECT_EQ(m.getColSize(), 10);
     EXPECT_EQ(m.getRowCapacity(), 4);
     EXPECT_EQ(m.getColCapacity(), 16);
-    m.append(m2);
+    m.append(m);
     EXPECT_EQ(m.getRowSize(), 6);
     EXPECT_EQ(m.getColSize(), 10);
     EXPECT_EQ(m.getRowCapacity(), 8);
